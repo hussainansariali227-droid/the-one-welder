@@ -1,0 +1,798 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- =========================
+         GOOGLE SEO
+    ========================== -->
+
+    <title>THE ONE WELDER | Steel Gates, Railings, Windows & Iron Work</title>
+
+    <meta name="description"
+        content="THE ONE WELDER provides steel gates, steel railings, steel windows, iron fabrication, metal fabrication and professional welding work. Get a quote today.">
+
+    <meta name="keywords"
+        content="
+        THE ONE WELDER,
+        The One Welder,
+        steel gate,
+        steel gates,
+        steel railing,
+        steel railings,
+        steel windows,
+        iron gate,
+        iron railing,
+        iron windows,
+        iron fabrication,
+        metal fabrication,
+        welding work,
+        welder,
+        welding contractor,
+        custom steel work,
+        custom iron work
+        ">
+
+    <meta name="robots" content="index, follow">
+
+    <meta name="author" content="THE ONE WELDER">
+
+    <!-- IMPORTANT:
+         Change this after your website is published -->
+    <link rel="canonical" href="https://www.example.com/">
+
+    <!-- =========================
+         SOCIAL MEDIA PREVIEW
+    ========================== -->
+
+    <meta property="og:title"
+        content="THE ONE WELDER | Steel & Iron Fabrication">
+
+    <meta property="og:description"
+        content="Steel gates, railings, windows, iron fabrication and professional welding work.">
+
+    <meta property="og:type" content="website">
+
+    <meta property="og:url"
+        content="https://www.example.com/">
+
+    <style 
+
+    .map-container {
+    margin: 25px 0;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 2px solid #ff7800;
+}
+
+.map-container iframe {
+    display: block;
+}
+    
+    
+    /* GALLERY */
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+.gallery-item {
+    background: #1b1b1b;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #333;
+    text-align: center;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+}
+
+.gallery-item h3 {
+    color: #ff7800;
+    padding: 15px;
+} 
+ .contact-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #101010;
+            color: white;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #050505;
+            padding: 18px 7%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            border-bottom: 2px solid #ff7800;
+        }
+
+        .logo {
+            font-size: 25px;
+            font-weight: bold;
+            color: #ff7800;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ff7800;
+        }
+
+        /* HERO */
+
+        .hero {
+            min-height: 90vh;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            text-align: center;
+
+            padding: 40px 20px;
+
+            background:
+                linear-gradient(
+                    rgba(0,0,0,.75),
+                    rgba(0,0,0,.88)
+                ),
+                url("https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=1800&q=80");
+
+            background-size: cover;
+            background-position: center;
+        }
+
+        .hero-content {
+            max-width: 850px;
+        }
+
+        .hero h1 {
+            font-size: 65px;
+            color: #ff7800;
+            margin-bottom: 10px;
+        }
+
+        .hero h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 19px;
+            color: #ddd;
+        }
+
+        .button {
+            display: inline-block;
+
+            margin-top: 25px;
+
+            padding: 14px 30px;
+
+            background: #ff7800;
+            color: #000;
+
+            text-decoration: none;
+
+            font-weight: bold;
+
+            border-radius: 5px;
+        }
+
+        .button:hover {
+            background: white;
+        }
+
+        /* SECTIONS */
+
+        section {
+            padding: 75px 8%;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 45px;
+        }
+
+        .section-title h2 {
+            color: #ff7800;
+            font-size: 40px;
+        }
+
+        .section-title p {
+            color: #aaa;
+        }
+
+        /* SERVICES */
+
+        .services {
+            display: grid;
+
+            grid-template-columns:
+                repeat(auto-fit, minmax(240px, 1fr));
+
+            gap: 25px;
+        }
+
+        .card {
+            background: #1b1b1b;
+
+            padding: 30px;
+
+            border-radius: 10px;
+
+            border: 1px solid #333;
+
+            text-align: center;
+
+            transition: .3s;
+        }
+
+        .card:hover {
+            transform: translateY(-7px);
+            border-color: #ff7800;
+        }
+
+        .card h3 {
+            color: #ff7800;
+            margin-bottom: 12px;
+            font-size: 23px;
+        }
+
+        .card p {
+            color: #ccc;
+        }
+
+        /* ABOUT */
+
+        .about {
+            background: #181818;
+        }
+
+        .about-content {
+            max-width: 900px;
+            margin: auto;
+            text-align: center;
+        }
+
+        .about-content p {
+            color: #ccc;
+            font-size: 18px;
+            margin-bottom: 18px;
+        }
+
+        /* CONTACT */
+
+        .contact {
+            text-align: center;
+        }
+
+        .contact-box {
+            max-width: 700px;
+
+            margin: auto;
+
+            padding: 35px;
+
+            background: #1b1b1b;
+
+            border-radius: 10px;
+        }
+
+        .contact-box p {
+            font-size: 18px;
+            margin: 12px;
+        }
+
+        .contact-box strong {
+            color: #ff7800;
+        }
+
+        /* FOOTER */
+
+        footer {
+            background: #050505;
+            text-align: center;
+            padding: 30px 15px;
+            color: #aaa;
+        }
+
+        footer strong {
+            color: #ff7800;
+        }
+
+        /* MOBILE */
+
+        @media (max-width: 700px) {
+
+            header {
+                flex-direction: column;
+                gap: 12px;
+            }
+
+            nav a {
+                margin: 0 7px;
+                font-size: 14px;
+            }
+
+            .hero h1 {
+                font-size: 42px;
+            }
+
+            .hero h2 {
+                font-size: 23px;
+            }
+
+            .hero p {
+                font-size: 16px;
+            }
+
+            section {
+                padding: 55px 5%;
+            }
+
+        }
+
+    </style>
+
+
+    <!-- =========================
+         GOOGLE STRUCTURED DATA
+    ========================== -->
+
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+
+    "name": "THE ONE WELDER",
+
+    "description": "THE ONE WELDER provides steel gates, steel railings, steel windows, iron fabrication, metal fabrication and professional welding work.",
+
+    "url": "https://YOUR-WEBSITE.com/",
+
+    "telephone": "+91XXXXXXXXXX",
+
+    "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 28.658543,
+        "longitude": 77.103472
+    },
+
+    "hasMap": "https://www.google.com/maps/search/?api=1&query=28.658543,77.103472",
+
+    "serviceType": [
+        "Steel Gates",
+        "Steel Railings",
+        "Steel Windows",
+        "Iron Gates",
+        "Iron Railings",
+        "Iron Fabrication",
+        "Metal Fabrication",
+        "Welding Work",
+        "Custom Steel Work"
+    ]
+}
+
+    </script>
+
+</head>
+
+
+<body>
+
+
+<!-- =========================
+     HEADER
+========================== -->
+
+<header>
+
+    <div class="logo">
+        THE ONE WELDER
+    </div>
+
+    <nav>
+
+        <a href="#home">Home</a>
+
+        <a href="#services">Services</a>
+
+        <a href="#gallery">Gallery</a>
+
+        <a href="#about">About</a>
+
+        <a href="#contact">Contact</a>
+
+    </nav>
+
+</header>
+
+
+<!-- =========================
+     HOME
+========================== -->
+
+<section class="hero" id="home">
+
+    <div class="hero-content">
+
+        <h1>THE ONE WELDER</h1>
+
+        <h2>
+            Steel & Iron Fabrication
+        </h2>
+
+        <p>
+            Professional welding and fabrication
+            for steel gates, steel railings,
+            steel windows, iron work and custom
+            metal projects.
+        </p>
+
+        <a href="#contact" class="button">
+            GET A QUOTE
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     SERVICES
+========================== -->
+
+<section id="services">
+
+    <div class="section-title">
+
+        <h2>OUR SERVICES</h2>
+
+        <p>
+            Professional steel and iron fabrication
+        </p>
+
+    </div>
+
+
+    <div class="services">
+
+
+        <div class="card">
+
+            <h3>Steel Gates</h3>
+
+            <p>
+                Custom steel gates for homes,
+                shops, offices and commercial
+                properties.
+            </p>
+
+        </div>
+
+
+        <div class="card">
+
+            <h3>Steel Railings</h3>
+
+            <p>
+                Strong and stylish steel railings
+                for stairs, balconies and terraces.
+            </p>
+
+        </div>
+
+
+        <div class="card">
+
+            <h3>Steel Windows</h3>
+
+            <p>
+                Durable steel windows made
+                according to your required size
+                and design.
+            </p>
+
+        </div>
+
+
+        <div class="card">
+
+            <h3>Iron Gates</h3>
+
+            <p>
+                Strong iron gates with custom
+                designs and professional finishing.
+            </p>
+
+        </div>
+
+
+        <div class="card">
+
+            <h3>Iron Railings</h3>
+
+            <p>
+                Custom iron railing work for
+                residential and commercial projects.
+            </p>
+
+        </div>
+
+
+        <div class="card">
+
+            <h3>Metal Fabrication</h3>
+
+            <p>
+                Custom metallic and iron fabrication
+                according to your project requirements.
+            </p>
+
+        </div>
+
+
+        <div class="card">
+
+            <h3>Welding Work</h3>
+
+            <p>
+                Professional welding for repair,
+                construction and custom projects.
+            </p>
+
+        </div>
+
+
+        <div class="card">
+
+            <h3>Custom Work</h3>
+
+            <p>
+                Have a special design?
+                We can fabricate your custom
+                steel or iron project.
+            </p>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+<!-- =========================
+     GALLERY
+========================== -->
+
+<section id="gallery">
+
+    <div class="section-title">
+
+        <h2>OUR WORK</h2>
+
+        <p>
+            Steel gates, railings, windows and custom metal work
+        </p>
+
+    </div>
+
+    <div class="gallery">
+
+        <div class="gallery-item">
+            <img src="images/gate.jpg" alt="THE ONE WELDER steel gate">
+            <h3>Steel Gates</h3>
+        </div>
+
+        <div class="gallery-item">
+            <img src="images/railing.jpg" alt="THE ONE WELDER steel railing">
+            <h3>Steel Railings</h3>
+        </div>
+
+        <div class="gallery-item">
+            <img src="images/window.jpg" alt="THE ONE WELDER steel window">
+            <h3>Steel Windows</h3>
+        </div>
+
+        <div class="gallery-item">
+            <img src="images/iron-work.jpg" alt="THE ONE WELDER iron fabrication">
+            <h3>Iron Fabrication</h3>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================
+     ABOUT
+========================== -->
+
+<section class="about" id="about">
+
+    <div class="section-title">
+
+        <h2>ABOUT THE ONE WELDER</h2>
+
+    </div>
+
+
+    <div class="about-content">
+
+        <p>
+            <strong>THE ONE WELDER</strong>
+            specializes in steel and iron welding,
+            fabrication and custom metal work.
+        </p>
+
+        <p>
+            We provide steel gates, steel railings,
+            steel windows, iron gates, iron railings
+            and customized metal fabrication.
+        </p>
+
+        <p>
+            Our focus is strong construction,
+            accurate fabrication and clean finishing.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     CONTACT
+========================== -->
+
+<section id="contact">
+
+    <div class="section-title">
+
+        <h2>CONTACT THE ONE WELDER</h2>
+
+        <p>
+            Get a quotation for your project.
+        </p>
+
+    </div>
+
+
+    <div class="contact-box">
+
+
+        <!-- CHANGE THESE -->
+
+        <p>
+            <strong>Business:</strong>
+            THE ONE WELDER
+        </p>
+
+
+        <p>
+            <strong>Phone:</strong>
+            +91 8595427397
+        </p>
+
+
+        <p>
+            <strong>WhatsApp:</strong>
+            +91 8595427397
+        </p>
+
+
+<p>
+  <p>          
+    <strong>Location:</strong>
+    THE ONE WELDER
+  </p>
+
+<div class="map-container">
+
+    <iframe
+        src="https://www.google.com/maps?q=28.658543,77.103472&z=17&output=embed"
+        width="100%"
+        height="350"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy">
+    </iframe>
+
+</div>
+
+ <a
+    class="button"
+    href="https://www.google.com/maps/search/?api=1&query=28.658543,77.103472"
+    target="_blank">
+
+    📍 Open Location in Google Maps
+
+ </a>
+</p>
+
+
+<div class="contact-buttons">
+
+    <a
+        class="button"
+        href="tel:+8595427397">
+
+        📞 Call THE ONE WELDER
+
+    </a>
+
+    <a
+        class="button"
+        href="tel:+8595427397"
+        target="_blank">
+
+        💬 WhatsApp THE ONE WELDER
+
+    </a>
+
+   </div>
+
+        </a>
+
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     FOOTER
+========================== -->
+
+<footer>
+
+    <p>
+        © 2026 <strong>THE ONE WELDER</strong>
+    </p>
+
+    <p>
+        Steel Gates • Steel Railings • Steel Windows
+        • Iron Fabrication • Welding Work
+    </p>
+
+</footer>
+
+
+</body>
+
+</html>
+```
